@@ -1,0 +1,174 @@
+/*
+Template Name: HTML CSS BASIC
+Author URI: https://github.com/abdipramana
+*/
+/* RESET CSS
+-----------------------*/
+html body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: #333;
+  font-family: 'cambria', sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+}
+html body a {
+  font-size: 15px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+}
+html body a:hover,
+html body a:active {
+  color: #f0941b;
+}
+html body a:hover,
+html body a:active,
+html body a:focus {
+  outline: 0;
+}
+p {
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.clear:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* HEADER
+------------------------*/
+#header {
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+}
+/* MENU
+------------------------*/
+#menu {
+  background: rgba(206, 117, 0, 0.75);
+}
+#menu ul li {
+  float: left;
+}
+#menu ul li a {
+  padding: 15px 25px;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+}
+#menu ul li a:hover {
+  background: #ce7500;
+  color: #fff;
+}
+/* CONTENT
+------------------------*/
+#content-container {
+  padding: 50px 25px;
+}
+.content {
+  width: 75%;
+  float: left;
+}
+.content h1 {
+  margin-bottom: 30px;
+}
+.content-inner {
+  padding-right: 75px;
+}
+/* SIDEBAR
+------------------------*/
+.sidebar {
+  width: 25%;
+  float: left;
+}
+.widget {
+  margin: 0 0 50px;
+}
+.form-item {
+  padding: 8px 15px;
+  margin-bottom: 15px;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  background: #fcfcfc;
+}
+input {
+  color: #666;
+  border: none;
+  background: #fcfcfc;
+}
+button {
+  padding: 10px 35px;
+  border-radius: 3px;
+  border: 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.search {
+  position: relative;
+}
+.search input {
+  margin-bottom: 0;
+}
+.search button {
+  background-image: url('../img/search.png');
+  background-repeat: no-repeat;
+  padding: 0;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+}
+.login h3 {
+  margin-bottom: 15px;
+}
+.login button {
+  background: #DA9840;
+}
+/* FOOTER
+------------------------*/
+#footer {
+  background: #DA9840;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+#footer p {
+  color: #fff;
+  line-height: 100px;
+}
